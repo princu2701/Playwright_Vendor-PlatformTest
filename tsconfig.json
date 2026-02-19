@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* 👇 Added so Node globals like `process` work */
+    "types": ["node", "playwright"]
+  },
+  "include": [
+    "tests",
+    "playwright.config.ts"
+  ]
+}
